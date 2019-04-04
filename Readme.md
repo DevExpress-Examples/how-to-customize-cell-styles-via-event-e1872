@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [Default.aspx](./CS/ASPxPivotGrid_CustCellsStylesViaEvents/Default.aspx) (VB: [Default.aspx](./VB/ASPxPivotGrid_CustCellsStylesViaEvents/Default.aspx))
-* [Default.aspx.cs](./CS/ASPxPivotGrid_CustCellsStylesViaEvents/Default.aspx.cs) (VB: [Default.aspx](./VB/ASPxPivotGrid_CustCellsStylesViaEvents/Default.aspx))
+* [Default.aspx.cs](./CS/ASPxPivotGrid_CustCellsStylesViaEvents/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/ASPxPivotGrid_CustCellsStylesViaEvents/Default.aspx.vb))
 <!-- default file list end -->
 # How to Customize Cell Styles via Event
 
