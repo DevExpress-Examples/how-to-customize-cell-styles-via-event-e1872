@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs"
             Inherits="CustomizeCellsAppearanceViaEvents._Default" %>
 
-<%@ Register Assembly="DevExpress.Web.ASPxPivotGrid.v13.1, Version=13.1.6.0,
+<%@ Register Assembly="DevExpress.Web.ASPxPivotGrid.v13.1, Version=13.1.14.0,
            Culture=neutral, PublicKeyToken=b88d1754d700e49a"
            Namespace="DevExpress.Web.ASPxPivotGrid"
            TagPrefix="dx" %>
