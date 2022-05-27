@@ -12,7 +12,7 @@ namespace CustomizeCellsAppearanceViaEvents {
             if (e.ColumnValueType != PivotGridValueType.Value ||
                 e.RowValueType != PivotGridValueType.Value) return;
             if (Convert.ToInt32(e.Value) > 50 && 
-              e.DataField.FieldName == "Quantity") {
+              e.DataField == fieldQuantity) {
                 e.CellStyle.BackColor = Color.Orange;
                 e.CellStyle.Font.Bold = true;
             }

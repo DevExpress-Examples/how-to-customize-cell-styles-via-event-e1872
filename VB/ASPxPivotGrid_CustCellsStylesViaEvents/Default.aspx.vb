@@ -14,10 +14,10 @@ Namespace CustomizeCellsAppearanceViaEvents
                 OrElse e.RowValueType <> PivotGridValueType.Value Then
                 Return
             End If
-			If Convert.ToInt32(e.Value) > 50 AndAlso e.DataField.FieldName = "Quantity" Then
-				e.CellStyle.BackColor = Color.Orange
-				e.CellStyle.Font.Bold = True
-			End If
-		End Sub
+            If Convert.ToInt32(e.Value) > 50 AndAlso e.DataField Is fieldQuantity Then
+                e.CellStyle.BackColor = Color.Orange
+                e.CellStyle.Font.Bold = True
+            End If
+        End Sub
 	End Class
 End Namespace
