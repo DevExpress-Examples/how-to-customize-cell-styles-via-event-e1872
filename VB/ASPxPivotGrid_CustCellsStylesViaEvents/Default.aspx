@@ -1,22 +1,22 @@
-﻿<%@ Page Language="vb" AutoEventWireup="true" CodeBehind="Default.aspx.vb"
-			Inherits="CustomizeCellsAppearanceViaEvents._Default" %>
+<%@ Page Language="VB" AutoEventWireup="true" CodeBehind="Default.aspx.vb"
+            Inherits="CustomizeCellsAppearanceViaEvents._Default" %>
 
 <%@ Register Assembly="DevExpress.Web.ASPxPivotGrid.v24.2, Version=24.2.6.0,
-		   Culture=neutral, PublicKeyToken=b88d1754d700e49a"
-		   Namespace="DevExpress.Web.ASPxPivotGrid"
-		   TagPrefix="dx" %>
+           Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+           Namespace="DevExpress.Web.ASPxPivotGrid"
+           TagPrefix="dx" %>
 
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-		  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-	<title></title>
+    <title></title>
 </head>
 <body>
-	<form id="form1" runat="server">
-	<div>
+    <form id="form1" runat="server">
+    <div>
         <dx:ASPxPivotGrid ID="ASPxPivotGrid1" runat="server" 
             DataSourceID="SqlDataSource1" OnCustomCellStyle="CustomCellStyle" ClientIDMode="AutoID" IsMaterialDesign="False">
             <Fields>
@@ -59,7 +59,7 @@
             SelectCommand="SELECT [City], [Region], [Country],
                     [UnitPrice], [Quantity], [ProductName]
                     FROM [Invoices]"></asp:SqlDataSource>
-	</div>
-	</form>
+    </div>
+    </form>
 </body>
 </html>
